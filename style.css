@@ -1,0 +1,45 @@
+
+body {
+    background-image: url('Freedom.jpg'); /* Gantilah dengan lokasi file gambar Anda */
+    background-size: cover; /* Mengatur gambar agar sesuai dengan ukuran layar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  }
+
+
+.glitter-text {
+        height: 0;
+        text-align: center;
+        justify-content: center;
+        font-size: 48px;
+        animation: glitter 2s infinite;
+        display: flex;
+        padding: 10px; /* Tambahkan padding untuk memperjelas efek kilap */
+      }
+
+ul{
+    font-size: 20px;
+    text-align: justify;
+    display: block;
+    padding: 20px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.moving-text {
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+  }
+
+  .moving-text:hover {
+    animation: moveText 0.3s forwards;
+  }
+
+
+
+
+
+
+
+
+    
+  
