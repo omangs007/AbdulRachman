@@ -15,7 +15,17 @@ body {
     position: relative;
     
   }
-
+a:link {
+  font-size: 20px;
+  text-align: justify;
+  justify-content: left;
+  display: block;
+  padding: 20px;
+  color: white;
+  padding-left: 2px;
+  display: inline-block;
+  transition: transform 0.3s ease-out;
+}
 
 h1 {
         text-align: center;
