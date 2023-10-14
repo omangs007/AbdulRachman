@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+
+    <style>
+        h1 {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
+
+        tr {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<form>
+    
+    <h1>Form Registrasi</h1>
+    <hr class="line" color="blue" size="5" width="100%" align="left">
+
+
+    <table>
+   <tr style="text-align: center;">
+    <tr>
+    <td>NIM</td>
+   <td>:</td>
+        <td><input type="text" name="NIM"></td>
+        </tr>
+    <tr>
+        <td>Nama Lengkap</td>
+        <td>:</td>
+        <td><input type="text" name="nama lengkap"></td>
+        </tr>
+
+     
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name='jenis_kelamin' value='pria'/>Pria
+                <input type="radio" name='jenis_kelamin' value='perempuan'/>Perempuan</td>
+                </tr>
+
+
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td><select>
+                        <option value="ISLAM">ISLAM</option>
+                        <option value="KRISTEN">KRISTEN</option>
+                        <option value="KATOLIK">KATOLIK</option>
+                        <option value="HINDU">HINDU</option>
+                        <option value="BUDHA">BUDHA</option>
+                    </select></td>
+                </tr>
+
+                <tr><td>STATUS</td> 
+                <td>:</td>
+                <td><input type="radio" name="status" value="kawin">Kawin
+              <input type="radio" name="status" value="belumkawin">Belum Kawin </td>
+                </tr>
+                <tr>
+                   <td>JURUSAN</td><td> : </td><td><select name="jurusan" Size="1">
+                        <option value ="Teknik Informatika"> Teknik Informatika </option>
+                        <option value ="Manajemen Informatika"> Manajemen Informatika </option>
+                        <option value ="Teknik Komputer"> Teknik Komputer </option>
+                        <option value ="Teknik Industri"> Teknik Industri </option>
+                        </select></td>
+                </tr>
+
+              <tr>
+                <td>KETERANGAN</td>
+                    <td>:</td>
+                <td><textarea name="ket" rows="3" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+               <td> <input type="submit" value="kirim">
+                <input type="reset" value="ulang">
+                </td>
+              </tr>
+            </tr>
+ 
+        </table>
+</pre>
+</form>
+</body>
+</html>
